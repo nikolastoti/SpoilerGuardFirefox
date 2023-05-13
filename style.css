@@ -1,0 +1,50 @@
+
+body {
+    background-color: #4a0404;
+}
+  
+.spoiler-blurred {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spoiler-show-button {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    margin: auto;
+    margin-left: -30px;  
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    cursor: pointer;
+}
+
+.spoiler-show-button {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.warning-label {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    padding: 25px;
+    position: absolute;
+    top: 30%;
+    text-shadow: 2px 2px black;
+}
+
+#addWord {
+    margin-left: 10px;
+}
+
+.background-logo {
+  background-image: url(images/SpoilerGuard-HD.png);
+  background-size: 160px;
+  background-position: 180px 0px;
+  background-repeat: no-repeat;
+  min-height: 175px;
+}
